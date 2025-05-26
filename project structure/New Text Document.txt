@@ -1,0 +1,27 @@
+voice-music-app/
+├── backend/
+│   ├── app.py                      # Main Flask application
+│   ├── spotify_handler.py          # Handles Spotify API functions
+│   ├── speech_to_text.py           # (Optional) Converts audio to text
+│   ├── config.py                   # Environment config loader
+│   ├── requirements.txt            # Python dependencies
+│   └── .env                        # API keys and secrets (Spotify)
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/                 # Images, icons, etc.
+│   │   ├── components/            # Reusable components (SearchBar, Player, etc.)
+│   │   ├── pages/                 # App pages (Home.js, Playlist.js)
+│   │   ├── services/              # API calls (e.g., axios instance)
+│   │   ├── App.js                 # Main app layout
+│   │   ├── index.js               # React entry point
+│   │   └── voiceHandler.js        # Web Speech API integration
+│   ├── tailwind.config.js         # Tailwind CSS config
+│   ├── postcss.config.js
+│   ├── package.json               # React dependencies
+│   └── .env                       # Frontend env vars (API URLs)
+│
+├── README.md
+├── .gitignore
+└── LICENSE

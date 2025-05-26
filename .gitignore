@@ -1,0 +1,11 @@
+## Python
+backend/__pycache__/
+backend/.env
+backend/*.__py
+
+## Node / react
+frontend/node_modules/
+frontend/.env
+
+## VSCODE or IDE
+.VSCODE/
